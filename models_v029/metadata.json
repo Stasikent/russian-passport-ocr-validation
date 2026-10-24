@@ -1,0 +1,19 @@
+{
+  "version": "v029",
+  "threshold": 0.05,
+  "targets": [
+    "Birth_place_ru",
+    "Issue_organization_ru"
+  ],
+  "training_documents": 3000,
+  "models": {
+    "Birth_place_ru": {
+      "filename": "Birth_place_ru.cbm",
+      "incorrect_count": 519
+    },
+    "Issue_organization_ru": {
+      "filename": "Issue_organization_ru.cbm",
+      "incorrect_count": 602
+    }
+  }
+}
